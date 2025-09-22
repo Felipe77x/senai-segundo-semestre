@@ -1,0 +1,95 @@
+/* time_coracao\src\components\Time_coracao\styles.css */
+
+
+/* Resetando algumas configurações padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cor de fundo geral */
+body {
+    background-color: #f2f4f7; /* Fundo claro */
+    font-family: 'Arial', sans-serif;
+    color: #333;  /* Cor do texto */
+}
+
+/* Estilo do Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do lado esquerdo - Formulário de Cadastro */
+.formulario {
+    width: 48%;
+    padding: 20px;
+    background-color: #f7f9fc;  /* Fundo claro com toque de azul */
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #003d73; /* Azul escuro */
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+/* Estilo do título "Cadastrar Jogador" */
+h2 {
+    font-size: 1.8rem;
+    color: #003d73;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos inputs */
+input, select {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 2px solid #ddd;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #f39c12; /* Dourado */
+}
+
+/* Botão de "Cadastrar Jogador" */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #003d73; /* Azul escuro */
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover no botão */
+button:hover {
+    background-color: #f39c12; /* Dourado */
+}
+
+/* Estilo do lado direito - Plantel */
+.plantel {
+    width: 48%;
+    padding: 20px;
+    background-color: #f7f9fc;
+    border-radius: 10px;
+    box-shadow: 0 2
+}
